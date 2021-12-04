@@ -1,0 +1,41 @@
+body
+{
+background-image: url("background.jpg");
+text-align:center;
+}
+
+h1
+{
+font-size: 20px !important;
+font-weight: bold;
+}
+
+button
+{
+font-weight: bold;
+}
+
+#snap:hover
+{
+background-color: rosybrown;
+color: royalblue;
+}
+
+#title:hover
+{
+    background-color: teal;
+    color: indianred;
+}
+
+canvas
+{
+animation-name:canvas1;
+animation-duration:3s;
+animation-iteration-count:infinite;
+}
+
+@keyframes canvas1
+{
+from {box-shadow:10px 10px 60px orchid;}
+to {box-shadow:10px 10px 60px powderblue;}
+}
